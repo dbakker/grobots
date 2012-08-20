@@ -1,0 +1,1 @@
+au BufRead,BufNewFile *.gb setfiletype grobots
