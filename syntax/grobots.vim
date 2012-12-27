@@ -4,8 +4,6 @@ if exists('b:current_syntax')
   finish
 endif
 
-" set foldmethod=indent
-" set foldminlines=5
 set foldmethod=marker
 
 set iskeyword+=-
@@ -14,9 +12,6 @@ set iskeyword+=_
 set iskeyword+=.
 set iskeyword+=<
 set iskeyword+=>
-
-" map <F5> <Esc>:w<CR>:!java -jar C:/Java/GRobotsMacro.jar "%:p"<CR>
-map <F5> <Esc>:w<CR>:!python C:/Users/Daan/Desktop/b/lens/programming-games/grobots/convertdefine.py "%:p"<CR>
 
 syn keyword branch ifg nifg ifeg ifc nifc ifr nifr if then else nif >r r< jump call return celse
 syn keyword branch do forever while loop until while-loop until-loop ifev return-if-true
