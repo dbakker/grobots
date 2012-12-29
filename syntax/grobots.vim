@@ -5,6 +5,7 @@ if exists('b:current_syntax')
 endif
 
 set foldmethod=marker
+setl commentstring=;%s
 
 set iskeyword+=-
 set iskeyword+=?
